@@ -1,9 +1,8 @@
 # This is the general base for all: non-contrail specfic like external and for contrail specific
 
+FROM omermajeed/base-image:7.4.164
 ARG CONTAINER_LINUX_DISTR=redhat
 ARG CONTAINER_LINUX_DISTR_VER=7.4
-#FROM $CONTAINER_LINUX_DISTR:$CONTAINER_LINUX_DISTR_VER
-FROM omermajeed/base-image:7.4.164
 
 ARG GENERAL_EXTRA_RPMS=""
 ARG YUM_ENABLE_REPOS=""
