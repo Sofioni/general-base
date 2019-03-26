@@ -1,0 +1,5 @@
+[contrail]
+name = Contrail repo
+baseurl = http://85.195.115.182:6667/
+enabled = 1
+gpgcheck = 0
